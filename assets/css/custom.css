@@ -1,0 +1,363 @@
+/* Background */
+.bg {
+    color: #c0caf5;
+    background-color: #1a1b26;
+}
+/* PreWrapper */
+.chroma:is(html[class~="dark"] *) {
+    color: #c0caf5;
+    background-color: #1a1b26;
+}
+/* Other */
+.chroma:is(html[class~="dark"] *) .x {
+}
+/* Error */
+.chroma:is(html[class~="dark"] *) .err {
+    color: #db4b4b;
+}
+/* CodeLine */
+.chroma:is(html[class~="dark"] *) .cl {
+}
+/* LineLink */
+.chroma:is(html[class~="dark"] *) .lnlinks {
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+}
+/* LineTableTD */
+.chroma:is(html[class~="dark"] *) .lntd {
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/* LineTable */
+.chroma:is(html[class~="dark"] *) .lntable {
+    border-spacing: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/* LineHighlight */
+.chroma:is(html[class~="dark"] *) .hl {
+    background-color: #414868;
+}
+/* LineNumbersTable */
+.chroma:is(html[class~="dark"] *) .lnt {
+    white-space: pre;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-right: 0.4em;
+    padding: 0 0.4em 0 0.4em;
+    color: #a9b1d6;
+}
+/* LineNumbers */
+.chroma:is(html[class~="dark"] *) .ln {
+    white-space: pre;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-right: 0.4em;
+    padding: 0 0.4em 0 0.4em;
+    color: #a9b1d6;
+}
+/* Line */
+.chroma:is(html[class~="dark"] *) .line {
+    display: flex;
+}
+/* Keyword */
+.chroma:is(html[class~="dark"] *) .k {
+    color: #bb9af7;
+}
+/* KeywordConstant */
+.chroma:is(html[class~="dark"] *) .kc {
+    color: #e0af68;
+}
+/* KeywordDeclaration */
+.chroma:is(html[class~="dark"] *) .kd {
+    color: #9d7cd8;
+}
+/* KeywordNamespace */
+.chroma:is(html[class~="dark"] *) .kn {
+    color: #7dcfff;
+}
+/* KeywordPseudo */
+.chroma:is(html[class~="dark"] *) .kp {
+    color: #bb9af7;
+}
+/* KeywordReserved */
+.chroma:is(html[class~="dark"] *) .kr {
+    color: #bb9af7;
+}
+/* KeywordType */
+.chroma:is(html[class~="dark"] *) .kt {
+    color: #41a6b5;
+}
+/* Name */
+.chroma:is(html[class~="dark"] *) .n {
+}
+/* NameAttribute */
+.chroma:is(html[class~="dark"] *) .na {
+    color: #7aa2f7;
+}
+/* NameBuiltin */
+.chroma:is(html[class~="dark"] *) .nb {
+    color: #9ece6a;
+}
+/* NameBuiltinPseudo */
+.chroma:is(html[class~="dark"] *) .bp {
+    color: #9ece6a;
+}
+/* NameClass */
+.chroma:is(html[class~="dark"] *) .nc {
+    color: #ff9e64;
+}
+/* NameConstant */
+.chroma:is(html[class~="dark"] *) .no {
+    color: #ff9e64;
+}
+/* NameDecorator */
+.chroma:is(html[class~="dark"] *) .nd {
+    color: #7aa2f7;
+    font-weight: bold;
+}
+/* NameEntity */
+.chroma:is(html[class~="dark"] *) .ni {
+    color: #7dcfff;
+}
+/* NameException */
+.chroma:is(html[class~="dark"] *) .ne {
+    color: #e0af68;
+}
+/* NameFunction */
+.chroma:is(html[class~="dark"] *) .nf {
+    color: #7aa2f7;
+}
+/* NameFunctionMagic */
+.chroma:is(html[class~="dark"] *) .fm {
+    color: #7aa2f7;
+}
+/* NameLabel */
+.chroma:is(html[class~="dark"] *) .nl {
+    color: #9ece6a;
+}
+/* NameNamespace */
+.chroma:is(html[class~="dark"] *) .nn {
+    color: #e0af68;
+}
+/* NameOther */
+.chroma:is(html[class~="dark"] *) .nx {
+}
+/* NameProperty */
+.chroma:is(html[class~="dark"] *) .py {
+    color: #e0af68;
+}
+/* NameTag */
+.chroma:is(html[class~="dark"] *) .nt {
+    color: #bb9af7;
+}
+/* NameVariable */
+.chroma:is(html[class~="dark"] *) .nv {
+}
+/* NameVariableClass */
+.chroma:is(html[class~="dark"] *) .vc {
+}
+/* NameVariableGlobal */
+.chroma:is(html[class~="dark"] *) .vg {
+}
+/* NameVariableInstance */
+.chroma:is(html[class~="dark"] *) .vi {
+}
+/* NameVariableMagic */
+.chroma:is(html[class~="dark"] *) .vm {
+}
+/* Literal */
+.chroma:is(html[class~="dark"] *) .l {
+}
+/* LiteralDate */
+.chroma:is(html[class~="dark"] *) .ld {
+}
+/* LiteralString */
+.chroma:is(html[class~="dark"] *) .s {
+    color: #9ece6a;
+}
+/* LiteralStringAffix */
+.chroma:is(html[class~="dark"] *) .sa {
+    color: #9d7cd8;
+}
+/* LiteralStringBacktick */
+.chroma:is(html[class~="dark"] *) .sb {
+    color: #9ece6a;
+}
+/* LiteralStringChar */
+.chroma:is(html[class~="dark"] *) .sc {
+    color: #9ece6a;
+}
+/* LiteralStringDelimiter */
+.chroma:is(html[class~="dark"] *) .dl {
+    color: #7aa2f7;
+}
+/* LiteralStringDoc */
+.chroma:is(html[class~="dark"] *) .sd {
+    color: #414868;
+}
+/* LiteralStringDouble */
+.chroma:is(html[class~="dark"] *) .s2 {
+    color: #9ece6a;
+}
+/* LiteralStringEscape */
+.chroma:is(html[class~="dark"] *) .se {
+    color: #7aa2f7;
+}
+/* LiteralStringHeredoc */
+.chroma:is(html[class~="dark"] *) .sh {
+    color: #414868;
+}
+/* LiteralStringInterpol */
+.chroma:is(html[class~="dark"] *) .si {
+    color: #9ece6a;
+}
+/* LiteralStringOther */
+.chroma:is(html[class~="dark"] *) .sx {
+    color: #9ece6a;
+}
+/* LiteralStringRegex */
+.chroma:is(html[class~="dark"] *) .sr {
+    color: #7dcfff;
+}
+/* LiteralStringSingle */
+.chroma:is(html[class~="dark"] *) .s1 {
+    color: #9ece6a;
+}
+/* LiteralStringSymbol */
+.chroma:is(html[class~="dark"] *) .ss {
+    color: #9ece6a;
+}
+/* LiteralNumber */
+.chroma:is(html[class~="dark"] *) .m {
+    color: #e0af68;
+}
+/* LiteralNumberBin */
+.chroma:is(html[class~="dark"] *) .mb {
+    color: #e0af68;
+}
+/* LiteralNumberFloat */
+.chroma:is(html[class~="dark"] *) .mf {
+    color: #e0af68;
+}
+/* LiteralNumberHex */
+.chroma:is(html[class~="dark"] *) .mh {
+    color: #e0af68;
+}
+/* LiteralNumberInteger */
+.chroma:is(html[class~="dark"] *) .mi {
+    color: #e0af68;
+}
+/* LiteralNumberIntegerLong */
+.chroma:is(html[class~="dark"] *) .il {
+    color: #e0af68;
+}
+/* LiteralNumberOct */
+.chroma:is(html[class~="dark"] *) .mo {
+    color: #e0af68;
+}
+/* Operator */
+.chroma:is(html[class~="dark"] *) .o {
+    color: #9ece6a;
+    font-weight: bold;
+}
+/* OperatorWord */
+.chroma:is(html[class~="dark"] *) .ow {
+    color: #9ece6a;
+    font-weight: bold;
+}
+/* Punctuation */
+.chroma:is(html[class~="dark"] *) .p {
+}
+/* Comment */
+.chroma:is(html[class~="dark"] *) .c {
+    color: #414868;
+    font-style: italic;
+}
+/* CommentHashbang */
+.chroma:is(html[class~="dark"] *) .ch {
+    color: #414868;
+    font-style: italic;
+}
+/* CommentMultiline */
+.chroma:is(html[class~="dark"] *) .cm {
+    color: #414868;
+    font-style: italic;
+}
+/* CommentSingle */
+.chroma:is(html[class~="dark"] *) .c1 {
+    color: #414868;
+    font-style: italic;
+}
+/* CommentSpecial */
+.chroma:is(html[class~="dark"] *) .cs {
+    color: #414868;
+    font-style: italic;
+}
+/* CommentPreproc */
+.chroma:is(html[class~="dark"] *) .cp {
+    color: #414868;
+    font-style: italic;
+}
+/* CommentPreprocFile */
+.chroma:is(html[class~="dark"] *) .cpf {
+    color: #414868;
+    font-weight: bold;
+    font-style: italic;
+}
+/* Generic */
+.chroma:is(html[class~="dark"] *) .g {
+}
+/* GenericDeleted */
+.chroma:is(html[class~="dark"] *) .gd {
+    color: #db4b4b;
+    background-color: #15161e;
+}
+/* GenericEmph */
+.chroma:is(html[class~="dark"] *) .ge {
+    font-style: italic;
+}
+/* GenericError */
+.chroma:is(html[class~="dark"] *) .gr {
+    color: #db4b4b;
+}
+/* GenericHeading */
+.chroma:is(html[class~="dark"] *) .gh {
+    color: #e0af68;
+    font-weight: bold;
+}
+/* GenericInserted */
+.chroma:is(html[class~="dark"] *) .gi {
+    color: #9ece6a;
+    background-color: #15161e;
+}
+/* GenericOutput */
+.chroma:is(html[class~="dark"] *) .go {
+}
+/* GenericPrompt */
+.chroma:is(html[class~="dark"] *) .gp {
+}
+/* GenericStrong */
+.chroma:is(html[class~="dark"] *) .gs {
+    font-weight: bold;
+}
+/* GenericSubheading */
+.chroma:is(html[class~="dark"] *) .gu {
+    color: #e0af68;
+    font-weight: bold;
+}
+/* GenericTraceback */
+.chroma:is(html[class~="dark"] *) .gt {
+    color: #db4b4b;
+}
+/* GenericUnderline */
+.chroma:is(html[class~="dark"] *) .gl {
+    text-decoration: underline;
+}
+/* TextWhitespace */
+.chroma:is(html[class~="dark"] *) .w {
+}
