@@ -54,7 +54,7 @@ router.get("/*?").handle(...)
 A dynamic route is a route that has a dynamic part to it, meaning it can handle requests to different endpoints and then use the data from the requested url as parameters. Check out how to [handle requests](/docs/guides/handling-requests#request-parameters) to learn more about how to use the params when handling the request.
 
 {{< callout type="warning" >}}
-Dynamic routes cannot have pre- or suffixes in the same slug. `/@:userId` is therefor not allowed. To learn how to combat this check out [parsing params](/docs/guides/parsing-parameters).
+Dynamic routes cannot have pre- or suffixes in the same slug. `/@:userId` is therefor not allowed. To learn how to combat this check out [parsing params](/docs/guides/parsing-parameters#pre--and-suffixes).
 {{< /callout >}}
 
 Required route params can be created using the syntax: `/:<name>`.
